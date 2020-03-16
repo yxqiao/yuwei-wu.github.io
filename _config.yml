@@ -9,36 +9,43 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: About Me
       url: /about
+
     - text: Blog
       url: /blog
     - text: Gallery
       url: /gallery
+
     - text: Shop
       url : /shop
+
+
     - text: Contact Me
       url : /contact
-    - text: Styleguide
-      url: /styleguide
+
     - text: Get Started
       url: /get-started
 
 # Edit these details
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author_logo: profile.jpeg
+author: Yuwei WU
+
+author_bio: I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
+
+author_email: "yuweiwu@seas.upenn.edu"
+author_location: United States
+author_website_url: "https://www.seas.upenn.edu/~yuweiwu/"
 
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
+            - company_name: Penn Wharton Budget Model
+              company_logo: google.jpeg
               company_url: https://google.com
-              designation: Software Engineer
+              designation: Data Quality Assurance
               description: Worked on various Google Products
               visibility: true
-            - company_name: Microsoft
+
+
+            - company_name: UISEE Technology
               company_logo: microsoft.png
               company_url: https://microsoft.com
               designation: Azure Developer
@@ -47,11 +54,13 @@ author_work_experiences:
 
 author_education_details:
               - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+                college_name: University of Pennsylvania
+                college_url: https://home.www.upenn.edu/
+                college_degree: MSE, systems engineering
+                description: Focus on control systems and robotics
                 visibility: true
+
+
 
 author_project_details:
               - project_thumbnail: gamershub.png
@@ -66,22 +75,14 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
+github_username:  yuwei-wu
 linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
 
 #for comments using disqus
-disqus_shortname: sujay-kundu
+disqus_shortname: yuwei-wu
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: yuwei-wu
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
@@ -95,7 +96,7 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10
+google_analytics: UA-160796698-1
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
@@ -104,11 +105,11 @@ show_author_project_details: true
 
 # algolia search
 algolia:
-  application_id: D9WA1YKTRQ
+  application_id: 6VC7B6G6UJ
   index_name: blog_posts # You can replace that with whatever name you want
   files_to_exclude: []
   nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+  search_only_api_key: 59545fd5504eeaa3619938ffbdeb7f2e
 
 # pagination of posts
 paginate: 4
