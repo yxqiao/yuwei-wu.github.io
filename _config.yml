@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: ""  # the subpath of your site, e.g. /blog
 
+
 urls:
     - text: About Me
       url: /about
@@ -19,14 +20,11 @@ urls:
     - text: Contact Me
       url : /contact
 
-    - text: Get Started
-      url: /get-started
 
 # Edit these details
 
 author_logo: profile.jpeg
 author: Yuwei WU
-
 author_bio: I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
 
 author_email: "yuweiwu@seas.upenn.edu"
@@ -42,14 +40,13 @@ author_work_experiences:
 
 
             - company_name: UISEE Technology
-              company_logo: 
               company_url: https://www.uisee.com/en/index.aspx
               designation: Self-driving Algorithm Developer
               description: Developed an evaluation tool for performance of different algorithms and reported leak detection on daily logs
               visibility: true
 
 author_education_details:
-              - college_logo: mit.png
+              - college_logo: Upenn.png
                 college_name: University of Pennsylvania
                 college_url: https://home.www.upenn.edu/
                 college_degree: MSE, systems engineering
@@ -60,10 +57,12 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+                project_title: Upennalizers
+                project_description: in charge of vision in our RoboCup team
+                project_url: https://fling.seas.upenn.edu/~robocup/wiki/
                 visibility: true
+
+
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
