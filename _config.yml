@@ -46,7 +46,7 @@ author_work_experiences:
               visibility: true
 
 author_education_details:
-              - college_logo: Upenn.png
+              - college_logo: UPenn.png
                 college_name: University of Pennsylvania
                 college_url: https://home.www.upenn.edu/
                 college_degree: MSE, systems engineering
@@ -56,7 +56,7 @@ author_education_details:
 
 
 author_project_details:
-              - project_thumbnail: gamershub.png
+              - project_thumbnail: Upennazliers.jpeg
                 project_title: Upennalizers
                 project_description: in charge of vision in our RoboCup team
                 project_url: https://fling.seas.upenn.edu/~robocup/wiki/
@@ -68,6 +68,8 @@ author_project_details:
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
                 visibility: true
+
+
 
 # social links
 github_username:  yuwei-wu
