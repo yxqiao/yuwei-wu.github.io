@@ -1,10 +1,10 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: yuweiwu
+subtitle: 
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+  This is yuwe's blog and some excited things~
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 
 urls:
     - text: About Me
@@ -12,12 +12,9 @@ urls:
 
     - text: Blog
       url: /blog
+
     - text: Gallery
       url: /gallery
-
-    - text: Shop
-      url : /shop
-
 
     - text: Contact Me
       url : /contact
@@ -38,18 +35,17 @@ author_website_url: "https://www.seas.upenn.edu/~yuweiwu/"
 
 author_work_experiences:
             - company_name: Penn Wharton Budget Model
-              company_logo: google.jpeg
-              company_url: https://google.com
+              company_url: https://usafacts.org/
               designation: Data Quality Assurance
-              description: Worked on various Google Products
+              description: Build tools for verification of updated data, discovery of data inconsistency and correction in USAFacts
               visibility: true
 
 
             - company_name: UISEE Technology
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+              company_logo: 
+              company_url: https://www.uisee.com/en/index.aspx
+              designation: Self-driving Algorithm Developer
+              description: Developed an evaluation tool for performance of different algorithms and reported leak detection on daily logs
               visibility: true
 
 author_education_details:
@@ -76,7 +72,7 @@ author_project_details:
 
 # social links
 github_username:  yuwei-wu
-linkedin_username: johndoe
+linkedin_username: yuweiwu-36343214a
 
 #for comments using disqus
 disqus_shortname: yuwei-wu

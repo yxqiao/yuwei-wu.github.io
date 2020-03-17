@@ -1,3 +1,13 @@
+
+---
+layout: post
+title: [daily record]2020-02-08
+author: Yuwei Wu
+date: '2020-02-08'
+category: guides
+---
+
+
 # Leetcode Contest
 
 ### 1 1345. Jump Game IV
