@@ -1,10 +1,10 @@
 
 ---
 layout: post
-title: [daily record]2020-02-08
+title: daily record:2020-02-08
 author: Yuwei Wu
 date: '2020-02-08'
-category: guides
+category: daily record
 ---
 
 
