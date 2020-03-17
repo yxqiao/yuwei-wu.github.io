@@ -4,6 +4,7 @@ layout: post
 title: daily record:2020-02-08
 author: Yuwei Wu
 date: '2020-02-08'
+summary: leetcode practice
 category: daily record
 ---
 
