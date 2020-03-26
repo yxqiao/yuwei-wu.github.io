@@ -66,17 +66,11 @@ author_project_details:
 paginate: 8
 
 footer-links: 
-  behance: # https://www.behance.net/<>
-  dribbble: # https://dribbble.com/<>
   email: yuweiwu20001@outlook.com
-  flickr: #https://www.flickr.com/<>
   github: https://github.com/yuwei-wu
-  instagram: #https://instagram.com/<>
-  linkedin: #https://www.linkedin.com/in/<>
-  pinterest: #https://www.pinterest.com/<>
+  linkedin: https://www.linkedin.com/in/yuweiwu-36343214a/
   rss: #随便填点啥RSS就能用了
   stackoverflow: # http://stackoverflow.com/<>
-  youtube: # channel/<your_long_string> or user/<user-name>
   wakatime_username: yuwei-wu
 footer-text: Copyright (c) 2020
 
