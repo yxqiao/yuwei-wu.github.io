@@ -10,14 +10,58 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fav
 
 # 菜单中的按钮
 navigation:
-  - name: 首页
+  - name: homepage
     url: /
-  - name: 关于
+  - name: about
     url: /about
-  - name: 归档
+  - name: archive
     url: /archive
-  - name: 标签
+  - name: tages
     url: /tags
+
+author_logo: profile.jpeg
+author: Yuwei WU
+author_bio: I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
+
+
+author_work_experiences:
+            - company_name: Penn Wharton Budget Model
+              company_url: https://usafacts.org/
+              designation: Data Quality Assurance
+              description: Build tools for verification of updated data, discovery of data inconsistency and correction in USAFacts
+              visibility: true
+
+
+            - company_name: UISEE Technology
+              company_url: https://www.uisee.com/en/index.aspx
+              designation: Self-driving Algorithm Developer
+              description: Developed an evaluation tool for performance of different algorithms and reported leak detection on daily logs
+              visibility: true
+
+author_education_details:
+              - college_logo: UPenn.png
+                college_name: University of Pennsylvania
+                college_url: https://home.www.upenn.edu/
+                college_degree: MSE, systems engineering
+                description: Focus on control systems and robotics
+                visibility: true
+
+
+
+author_project_details:
+              - project_thumbnail: Upennazliers.jpeg
+                project_title: Upennalizers
+                project_description: in charge of vision in our RoboCup team
+                project_url: https://fling.seas.upenn.edu/~robocup/wiki/
+                visibility: true
+
+
+              - project_thumbnail: hack4r.PNG
+                project_title: Hack4r
+                project_description: A Platform built for Hackers and Penetration Testers
+                project_url: https://hack4r.com
+                visibility: true
+
 
 paginate: 8
 
@@ -33,7 +77,7 @@ footer-links:
   rss: #随便填点啥RSS就能用了
   stackoverflow: # http://stackoverflow.com/<>
   youtube: # channel/<your_long_string> or user/<user-name>
-
+  wakatime_username: yuwei-wu
 footer-text: Copyright (c) 2020
 
 
