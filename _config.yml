@@ -1,5 +1,5 @@
-name: Hortensia-yuwei
-description: technical blog
+name: Hortensia
+description: I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
 avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
@@ -10,7 +10,7 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fav
 
 # 菜单中的按钮
 navigation:
-  - name: homepage
+  - name: blogs
     url: /
   - name: about
     url: /about
