@@ -25,6 +25,11 @@ comments: true
 	{% endif %}
 </div>
 
+
+
+
+
+
 <div class="list-group">
 	{% for post in paginator.posts %} 
 	<div class="list-group-item">
@@ -37,9 +42,10 @@ comments: true
 		{% endfor %}
 		{% if post.noimage %}
 		{% else %}		
-		<img
+		
+                <!-- <img
 			alt="{{ post.title }}"
-			src="/assets/images/{{post.id}}/top.jpg" class="img-responsive">
+			src="/assets/images/{{post.id}}/top.jpg" class="img-responsive"> -->
 		{% endif %}
 		<p>{{ post.excerpt | strip_html}}</p>
 		<a href="{{ post.url }}">Read more...</a>
@@ -47,6 +53,14 @@ comments: true
 	</div>
 	{% endfor %}
 </div>
+
+
+
+
+
+
+
+
 
 <!-- Pagination links -->
 <div >
@@ -65,5 +79,4 @@ comments: true
 {% else %}
 	<span >Next</span>
 {% endif %}
-</div>
-	  
+</div>  
