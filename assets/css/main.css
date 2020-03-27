@@ -4,10 +4,10 @@ html {
 }
 
 body {
-	/* Margin bottom by footer height */
-	margin-bottom: 8em;
+	/* Margin bottom by footer height   8em */
+	margin-bottom:  4.5em;    
 	padding-top: 4.5em;
-	counter-reset: h1counter;
+	/*counter-reset: h1counter; */
 	
 }
 
