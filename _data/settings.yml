@@ -11,8 +11,8 @@ google-ID: 'UA-160796698-1'
 menu:
   - name: About
     link: /about
-  - name: Posts
-    link: /
+  - name: Blogs
+    link: /blogs
   - name: Tags
     link: /tags
   - name: Featured Projects
