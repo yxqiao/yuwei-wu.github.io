@@ -9,22 +9,6 @@ github_username:  yuwei-wu
 
 baseurl: ""  # the subpath of your site, e.g. /blog
 
-
-urls:
-    - text: About Me
-      url: /about
-
-    - text: Blog
-      url: /blog
-
-    - text: Gallery
-      url: /gallery
-
-    - text: Contact Me
-      url : /contact
-
-
-author_logo: profile.jpeg
 author: Yuwei WU
 author_bio: I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
 
@@ -43,7 +27,7 @@ wakatime_username: yuwei-wu
 
 
 
-footer-text: Copyright (c) 2020
+footer-text: Copyright (c) 2020  Yuwei Wu 
 # jekyll-paginate configuration
 paginate: 10
 
