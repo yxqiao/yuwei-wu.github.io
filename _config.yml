@@ -1,128 +1,72 @@
-name: Hortensia
-description: I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
-
-# 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
-
-# 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
 
 
-# 菜单中的按钮
-navigation:
-  - name: blogs
-    url: /
-  - name: about
-    url: /about
-  - name: archive
-    url: /archive
-  - name: tages
-    url: /tags
+title: Hortensia
+name: Yuwei's Tech Blog
+description: 
+ I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
+baseurl: ""
+github_username:  yuwei-wu
+
+baseurl: ""  # the subpath of your site, e.g. /blog
+
+
+urls:
+    - text: About Me
+      url: /about
+
+    - text: Blog
+      url: /blog
+
+    - text: Gallery
+      url: /gallery
+
+    - text: Contact Me
+      url : /contact
+
 
 author_logo: profile.jpeg
 author: Yuwei WU
 author_bio: I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
 
+author_email: "yuweiwu@seas.upenn.edu"
+author_location: United States
+author_website_url: "https://www.seas.upenn.edu/~yuweiwu/"
 
-author_work_experiences:
-            - company_name: Penn Wharton Budget Model
-              company_url: https://usafacts.org/
-              designation: Data Quality Assurance
-              description: Build tools for verification of updated data, discovery of data inconsistency and correction in USAFacts
-              visibility: true
+# social links
+github_username:  yuwei-wu
+linkedin_username: yuweiwu-36343214a
 
+#for comments using disqus
+disqus_shortname: yuwei-wu
 
-            - company_name: UISEE Technology
-              company_url: https://www.uisee.com/en/index.aspx
-              designation: Self-driving Algorithm Developer
-              description: Developed an evaluation tool for performance of different algorithms and reported leak detection on daily logs
-              visibility: true
-
-author_education_details:
-              - college_logo: UPenn.png
-                college_name: University of Pennsylvania
-                college_url: https://home.www.upenn.edu/
-                college_degree: MSE, systems engineering
-                description: Focus on control systems and robotics
-                visibility: true
+# wakatime username (coding activity)
+wakatime_username: yuwei-wu
 
 
-
-author_project_details:
-              - project_thumbnail: Upennazliers.jpeg
-                project_title: Upennalizers
-                project_description: in charge of vision in our RoboCup team
-                project_url: https://fling.seas.upenn.edu/~robocup/wiki/
-                visibility: true
-
-
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
-
-
-paginate: 8
-
-footer-links: 
-  email: yuweiwu20001@outlook.com
-  github: https://github.com/yuwei-wu
-  linkedin: https://www.linkedin.com/in/yuweiwu-36343214a/
-  rss: #随便填点啥RSS就能用了
-  stackoverflow: # http://stackoverflow.com/<>
-  wakatime_username: yuwei-wu
-footer-text: Copyright (c) 2020
-
-
-disqus: yuwei-wu #shortname
-
-# 输入Google Analytics web tracking code
+# google analytics
 google_analytics: UA-160796698-1
 
-# 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: 
-
-# 添加你的博客的二级域名，一般来说是你的repository名
-# 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
-# 那么就写成 "/repository-name"
-baseurl: /
 
 
 
+footer-text: Copyright (c) 2020
+# jekyll-paginate configuration
+paginate: 10
 
-permalink: /:title/
-paginate_path: /page:num/
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
+# Build settings
+markdown: kramdown
+#theme: minima
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-paginate
-
-# Exclude these files from your production _site
 exclude:
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+include: ["_pages"]
+permalink: /posts/:title/
+excerpt_separator: <!--more-->
+author: http://www.linkedin.com/in/alainpham
 
-excerpt_separator: ---
+host: 0.0.0.0
+
