@@ -4,7 +4,6 @@
 <body>
 	{% include header.html %}
 	<div class="container">
-
 	{% if page.id %}
 	<p>
 		<strong>{{ page.published | date: '%B %d, %Y' }}</strong> ( last updated : {{ page.date | date: '%B %d, %Y' }} )
@@ -17,7 +16,7 @@
 	<p>
     	<a href="{{ page.github }}" class="btn btn-default">
 		    <i class="fa fa-github fa-2x"></i>  {{ page.github }}
-			</a>
+	</a>
 	</p>
 	{% endif %}
 	<hr>

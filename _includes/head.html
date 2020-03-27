@@ -1,17 +1,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-  <link rel="shortcut icon" type="image/png" href="/icon.png" />
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@koint">
-  <meta name="twitter:creator" content="@koint">
+  <link rel="shortcut icon" type="image/png" href="/logo.png" />
 
   <!-- SEO stuff -->
   <title>{{page.title}}</title>
   <meta property="og:title" content="{{page.title}}" />
-  <meta name="twitter:title" content="{{page.title}}">
-
 
   {% if page.description %}
 	  <meta name="description" content="{{page.description}}" />
@@ -25,13 +19,11 @@
   {% endif %}
   <link rel="canonical" href="{{site.url}}{{page.url}}" />
   <meta property="og:url" content="{{site.url}}{{page.url}}" />
-  <meta name="twitter:url" content="{{site.url}}{{page.url}}">
 
   <meta property="og:site_name" content="{{site.name}}" />
-  <meta property="og:image" content="{{site.url}}/assets/images/{{page.id}}/top.jpeg" />
-  <meta name="twitter:image" content="{{site.url}}/assets/images/{{page.id}}/top.jpeg">
-
-  {% if page.id %} <!-- if it's an article -->
+  <!-- <meta property="og:image" content="{{site.url}}/assets/images/{{page.id}}/top.jpeg" />
+-->
+ {% if page.id %} <!-- if it's an article -->
   <meta property="og:type" content="article" />
   <meta property="article:published_time" content="{{ page.published | date_to_xmlschema }}" />
   <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}" />
