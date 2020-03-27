@@ -12,9 +12,6 @@ baseurl: ""  # the subpath of your site, e.g. /blog
 author: Yuwei WU
 author_bio: I'm Yuwei Wu, now a master student at University of Pennsylvania majoring in systems engineering, interest in robotics, systems and optimization.
 
-author_email: "yuweiwu@seas.upenn.edu"
-author_location: United States
-author_website_url: "https://www.seas.upenn.edu/~yuweiwu/"
 
 # social links
 github_username:  yuwei-wu
