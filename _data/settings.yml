@@ -15,9 +15,13 @@ menu:
     link: /blogs
   - name: Tags
     link: /tags
+  - name: Gallery
+    link: /gallery
+  - name: Contact Me
+    link: /contact
   - name: Featured Projects
     submenu:
-      - name: MicroBam
-        link: /projects/microbam
-      - name: OurLegacy
-        link: /projects/ourlegacy
+      - name: RoboCup
+        link: /projects/RoboCup
+      - name: Dance Robot
+        link: /projects/DanceRobot
