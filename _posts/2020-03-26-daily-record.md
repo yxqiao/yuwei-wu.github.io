@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: leetcode daily record 2020-03-26
 date: 2020-03-26
 Author: Yuwei Wu

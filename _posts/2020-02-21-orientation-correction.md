@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: Embryos 3D Images Transfer
-date: 2013-07-16
+date: 2020-02-16
 Author: Yuwei Wu
 categories: 
 tags: [Porjects]
