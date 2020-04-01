@@ -12,6 +12,14 @@ body {
 	
 }
 
+
+.lead {
+    font-size: 1.30em;
+    font-weight: 600;
+    color: #ff7601;
+}
+
+
 .main-text {
 	font-size: 1.3em;
         padding-right: 2em;
