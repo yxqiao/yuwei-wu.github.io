@@ -40,20 +40,7 @@
 	{% endif %}
 
 
-
-
-
-
-
-
-
-
-
-
-
             {{ content }}
-
-
 
 	{% if page.id %}
 	<p>Originally published {{ page.published | date: '%B %d, %Y' }}
@@ -78,10 +65,11 @@
 
 	{% include disqus.html %}
 
+            </div>
+
+
 	{% include footer.html %}
 	{% include analytics.html %}
-
-            </div>
 
       {% endif %}
 
