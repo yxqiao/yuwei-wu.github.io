@@ -30,10 +30,20 @@
 	{% endif %}
 
 
-      {% if page.toc==true %}
-      <aside class="toc">
-        {% include toc.html html=content %}
-      </aside>
+       {% if page.toc==true %}
+
+        <div class="col-md-12">
+            <div class="col-md-3">
+		<aside class="toc">
+		{% include toc.html html=content %}
+		</aside>
+            </div>
+            <div class="col-md-9">
+            {{ content }}
+            </div>
+
+       {% else %}
+           {{ content }}
        {% endif %}
 
 
