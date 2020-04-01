@@ -46,20 +46,38 @@ title: Hello, world!
     </div>
 
 
- <br/> <br/> <br/>
+ <br/>
 
-<div class = "container">
-<div class="container row justify-content-md-center">
-    <div class="card"> 
 
-	     <div class="container">
-		<div class="col-md-6">              
+
+<script>
+        $(document).ready(function(){
+            $('#typewriteText').typewrite({
+                actions: [
+                    {type: 'Hello, I’m Yuwei, a master student interested in robotics, systems and optimization'}
+                ]
+            });
+        });
+    </script>
+
+
+<div class="col-lg-8 offset-md-2">
+  <div class="jumbotron" style="text-align: center;">
+   
+    <p class="lead" id="typewriteText"></p>
+
+
+      <div class="container">
+        <h2 class="display-4">Contact Me!</h2>
+            
 		{%- include contact_me_form.html -%}
-		</div>
 	    </div>
-    </div>
+
+
+  </div>
 </div>
-</div>
+
+
 
 
 
