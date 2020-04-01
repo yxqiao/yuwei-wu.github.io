@@ -40,7 +40,11 @@
 	{% endif %}
 
 
-            {{ content }}
+        <p>
+        {{ content }}
+
+
+         </p>
 
 	{% if page.id %}
 	<p>Originally published {{ page.published | date: '%B %d, %Y' }}
@@ -67,7 +71,7 @@
 
             </div>
 
-
+<br/> <br/> <br/>
 	{% include footer.html %}
 	{% include analytics.html %}
 
