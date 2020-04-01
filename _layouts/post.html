@@ -8,7 +8,6 @@
 	<h1 class="text-center">{{ page.title }}</h1>
 
 </div>
-	<div class="container">
 
 	{% if page.id %}
 	<p>
@@ -30,9 +29,23 @@
 	{% endif %}
 
 
+       {% if page.toc==true %}
 
-        {{ content }}
+        <div class="col-md-12">
+            <div class="col-md-3">
+		<aside class="toc">
+		{% include toc.html html=content %}
+		</aside>
+            </div>
+            <div class="col-md-9">
+            {{ content }}
+            </div>
 
+      {% endif %}
+
+
+           {{ content }}
+      
 
 
 
@@ -61,7 +74,7 @@
 	{% endif %}
 
 	{% include disqus.html %}
-	</div>
+
 	{% include footer.html %}
 	{% include analytics.html %}
 </body>

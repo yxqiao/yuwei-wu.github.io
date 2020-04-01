@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Embryos 3D Images Transfer
 date: 2020-02-16
 Author: Yuwei Wu
@@ -32,35 +32,35 @@ Because the development of the embryos changes with time, the long axis orientat
 
 ### 1.2. Input Data
 
-#### (1) CT images
+- (1) CT images
 
 The images from micro CT. 
 
-#### (2) some labeled images from pathologists
+- (2) some labeled images from pathologists
 
 Some couples of images, one is the original image, and the other is the processed images with correct orientation. So this question can be regarded as the supervised learning problems with input of images and output of transformed matrix or output images.
 
 ## 2.Assumptions
 
-#### (1) CT pictures has the enough precision (we use micro-CT)
+- (1) CT pictures has the enough precision (we use micro-CT)
 
-#### (2) The impact of motion artifacts and other artifacts has been reduced. 
+- (2) The impact of motion artifacts and other artifacts has been reduced. 
 
 <a href="#2" >[2]</a> has demonstrate how the motion artifact influence our images. It's assumed that some pictures with many artifacts have been remove and the images is not blur to influence the work of pathologists.  
 
-#### (3) The chicken embryos are in Ovo and in vivo
+- (3) The chicken embryos are in Ovo and in vivo
 
 According to the question, they need to determine phenotype of each egg, so it's the case that we observe embryos in the eggshell and in vivo so that they may have movements. There are some [experiments](https://abt.ucpress.edu/content/74/9/628) as ex ovo and the observation is not quite similar.
 
-#### (4) The labeled data are well distributed.
+- (4) The labeled data are well distributed.
 
 It means the labeled data cover the whole developmenet process of the embryo. Because the phenotype of chicken embryos changed dramatically if we lost some stages of this development, it may cause error with the use of labeled data. Also, we can consider the labeled data as ground truth (the labeled data has been filtraded). If the learning diffcults of the images are not well distributed, there are some strategies as imbalance sampling.
 
-#### (5) The missing data, error images have been removed. (all data is valid)
+- (5) The missing data, error images have been removed. (all data is valid)
 
 Just to make this question more spefific and only focus on the algorithms (in actual industrial field, it is often the case to have error input data). If the data has not been prepocessing, we can just write some scripts to check and select the valid data.
 
-#### (6) The rotation is rigid transformation.
+- (6) The rotation is rigid transformation.
 
 ## 3. Learning to Rotate
 
@@ -77,24 +77,24 @@ If the images are not as perfect as our assumptions, we need to clean and recons
 
 #### 3.1.2 Input and Output Forms
 
-##### Deal with 3D Images
+  - Deal with 3D Images
 
 There are usually two ways to deal with 3D detection problem. Firstly we can reconstruct from the 3T images to 3D structures or we use only the 2D features and put it in our network.
 
-##### (1) object reconstruction
+  - (1) object reconstruction
 
 In the problem description, they get the resulting 3d images and then do some rotations. We can use many tools with a lot of reconstruction algorithms to build the 3D images, such as the ASTRA Toolbox. Or, as there are a lot of types of medical images as dcm，nii.gz，nrrd，mha，mhd and we use dcm pydicom to get access to dcm data and itk to process it. Also, we can get the rotation information by calculate the rotation matrix from the orignal images and processed images 
 
-##### (2) using 2D features.
+  - (2) using 2D features.
 
 According to this paper [Is 2D Information Enough For ViewpointEstimation?](http://www.bmva.org/bmvc/2014/files/paper048.pdf), we can also explore for our specific case, whether it's better to only use the 3T slices.
 
-##### Output Form
+- Output Form
 
-##### (1) 3D Orientation
+- (1) 3D Orientation
 yaw, pitch, and roll, then we can use the pose to correct our 3D images to the right and consistent orientation.
 
-##### (2) rotated view
+- (2) rotated view
 
 3D images(it may not be very practical)
 
