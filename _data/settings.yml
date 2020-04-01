@@ -17,8 +17,6 @@ menu:
     link: /tags
   - name: Gallery
     link: /gallery
-  - name: Contact Me
-    link: /contact
   - name: Featured Projects
     submenu:
       - name: RoboCup
