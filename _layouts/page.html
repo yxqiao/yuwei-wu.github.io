@@ -26,10 +26,20 @@
 	</p>
 	{% endif %}
 	<hr>
-	<h1>Abstract</h1>
+
 	{% endif %}
 
+
+      {% if page.toc==true %}
+      <aside class="toc">
+        {% include toc.html html=content %}
+      </aside>
+       {% endif %}
+
+
+
 	{{ content }}
+
 
 
 	{% if page.id %}
