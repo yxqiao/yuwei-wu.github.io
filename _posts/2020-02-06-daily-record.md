@@ -1,6 +1,6 @@
 ---
-layout: post
-title: leetcode daily record 2020-02-06
+layout: page
+title: [LEETCODE] daily record 2020-02-06
 date: 2020-02-06
 Author: Yuwei Wu
 categories: 

@@ -1,7 +1,7 @@
 ---
-layout: post
-title: leetcode daily record 2020-03-26
-date: 2020-03-26
+layout: page
+title: leetcode daily record 2020-02-07
+date: 2020-02-07
 Author: Yuwei Wu
 categories: 
 tags: [daily]
