@@ -9,6 +9,17 @@
 
 </div>
 
+
+
+       {% if page.toc==true %}
+
+        <div class="col-md-12">
+            <div class="col-md-3">
+		<aside class="toc">
+		{% include toc.html html=content %}
+		</aside>
+            </div>
+            <div class="col-md-9">
 	{% if page.id %}
 	<p>
 		<strong>{{ page.published | date: '%B %d, %Y' }}</strong> ( last updated : {{ page.date | date: '%B %d, %Y' }} )
@@ -29,26 +40,18 @@
 	{% endif %}
 
 
-       {% if page.toc==true %}
 
-        <div class="col-md-12">
-            <div class="col-md-3">
-		<aside class="toc">
-		{% include toc.html html=content %}
-		</aside>
-            </div>
-            <div class="col-md-9">
+
+
+
+
+
+
+
+
+
+
             {{ content }}
-            </div>
-
-      {% endif %}
-
-
-           {{ content }}
-      
-
-
-
 
 
 
@@ -77,5 +80,12 @@
 
 	{% include footer.html %}
 	{% include analytics.html %}
+
+            </div>
+
+      {% endif %}
+
+      
+
 </body>
 </html>
