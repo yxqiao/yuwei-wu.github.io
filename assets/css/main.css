@@ -11,6 +11,11 @@ body {
 	
 }
 
+.main_text {
+	font-size: 1.3em;
+        padding-right: 2em;
+}
+
 .container {
 	font-size: 1.3em;
 }
