@@ -2,4 +2,4 @@
 https://yuwei-wu.github.io/
 
 this is yuwei's personal blogs
-yes
+这是吴雨薇的个人主页
